@@ -15,7 +15,8 @@ For running in Docker
 TODO: commands will be here
 ```
 
-For running without containers
+For running without containers, you should have node v20.0
+
 
 ```bash
 TODO: commands will be here
