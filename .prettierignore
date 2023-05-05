@@ -14,3 +14,5 @@ yarn.lock
 
 .pre-commit-config.yaml
 README.md
+Dockerfile
+.dockerignore
