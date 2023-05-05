@@ -20,3 +20,12 @@ For running without containers, you should have node v20.0
 ```bash
 npm i && npm run dev
 ```
+
+
+## Development
+
+For development it's useful to have:
+- pre-commit (https://pre-commit.com/)
+  - version: 3.3.1
+- node
+  - version: 20.0.0
