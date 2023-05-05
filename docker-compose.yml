@@ -1,0 +1,14 @@
+version: "3.4"
+services:
+ personal_site:
+   image: node:20.1-alpine3.16
+   container_name: personal_site_svelte
+   entrypoint: /bin/sh
+   ports:
+     - 8000:8000
+   working_dir: /srv/app
+   volumes:
+     - type: bind
+       source: ./
+       target: /srv/app
+   tty: true
