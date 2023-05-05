@@ -8,17 +8,18 @@ Personal site with a bit of information about myself and my professional skills
 
 There are two ways how to run this project:
 
-Docker or without Docker.
+docker-compose or without Docker.
 
-For running in Docker
+For running with docker-compose
 ```bash
-TODO: commands will be here
+docker-compose up --build --no-recreate -d
+docker exec -it personal_site_svelte sh -c "npm i && npm run dev"
 ```
 
 For running without containers, you should have node v20.0
 
 
 ```bash
-TODO: commands will be here
+npm i && npm run dev
 ```
 
