@@ -6,8 +6,6 @@ COPY package.json project/
 COPY package-lock.json project/
 WORKDIR ./project
 
-RUN npm install
-
 COPY . .
 
 EXPOSE 8000
