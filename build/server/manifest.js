@@ -1,4 +1,4 @@
-export const manifest = {
+const manifest = {
 	appDir: "_app",
 	appPath: "_app",
 	assets: new Set(["favicon.png"]),
@@ -6,9 +6,9 @@ export const manifest = {
 	_: {
 		client: {"start":"_app/immutable/entry/start.867f5762.js","app":"_app/immutable/entry/app.a8943188.js","imports":["_app/immutable/entry/start.867f5762.js","_app/immutable/chunks/index.e5de4ecf.js","_app/immutable/entry/app.a8943188.js","_app/immutable/chunks/index.e5de4ecf.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
-			() => import('./nodes/0.js'),
-			() => import('./nodes/1.js'),
-			() => import('./nodes/2.js')
+			() => import('./chunks/0-05ed6827.js'),
+			() => import('./chunks/1-888876f2.js'),
+			() => import('./chunks/2-c477bec5.js')
 		],
 		routes: [
 			{
@@ -26,4 +26,7 @@ export const manifest = {
 	}
 };
 
-export const prerendered = new Set([]);
+const prerendered = new Set([]);
+
+export { manifest, prerendered };
+//# sourceMappingURL=manifest.js.map
