@@ -17,6 +17,7 @@ COPY . .
 
 WORKDIR ./build
 
+EXPOSE 8000
 ENV PORT=8000
 CMD ['node', 'index.js']
 
