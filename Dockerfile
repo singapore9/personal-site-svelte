@@ -11,7 +11,7 @@ COPY package-lock.json project/
 WORKDIR ./project
 
 RUN apk add --update npm
-RUN npm i
+#RUN npm i
 
 COPY . .
 
