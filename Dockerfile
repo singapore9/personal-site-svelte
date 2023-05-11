@@ -15,6 +15,11 @@ RUN apk add --update npm
 
 COPY . .
 
+WORKDIR ./build
+
+ENV PORT=8000
+CMD ['node', 'index.js']
+
 #RUN npm run build
 
 
