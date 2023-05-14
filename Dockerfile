@@ -10,7 +10,8 @@ RUN apk add --update npm
 SHELL ["/bin/bash", "-c"]
 
 RUN mkdir project
+WORKDIR ./project
 COPY . .
-WORKDIR ./project/build
+WORKDIR ./build
 
 CMD ['node', 'index.js']
